@@ -10,12 +10,6 @@ const connectDB = async () => {
     });
 
     console.log(`##### ✅ ${chalk.green("MongoDB CONNECTED:")} ${chalk.gray.underline(coon.connection.host)}`);
-
-    // console.log(chalk.green(
-    //     'I am a green line ' +
-    //     chalk.yellow.underline.bold.bgGray(' with a blue substring ') +
-    //     ' that becomes green again!'
-    // ));
 };
 
 module.exports = connectDB;
